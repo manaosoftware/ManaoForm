@@ -1,0 +1,75 @@
+.manaoGridControlPicker .fieldPicker {
+    position: relative;
+    padding: 0px 0 5px 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.manaoGridControlPicker .fieldPicker {
+    margin: 0 0 10px 0;
+}
+
+    .manaoGridControlPicker .fieldPicker li {
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+        height: 10px;
+        padding-top: 5px;
+    }
+
+    .manaoGridControlPicker .fieldPicker i {
+        padding: 10px 5px 0 5px;
+        position: relative;
+        top: 2px;
+    }
+
+    .manaoGridControlPicker .fieldPicker.add {
+        padding: 5px 0px 0 0;
+        cursor: pointer;
+    }
+        .manaoGridControlPicker .fieldPicker.add i {
+        color:#53a93f;
+    }
+
+        .manaoGridControlPicker .fieldPicker.add:hover {
+            cursor: pointer;
+            position: relative;
+        }
+
+.manaoformsetting .fieldPicker {
+    padding: 20px 20px;
+    position: relative;
+    padding: 5px 0 5px 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+    .manaoformsetting .fieldPicker li {
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+        height: 25px;
+        padding-top: 5px;
+    }
+
+    .manaoformsetting .fieldPicker .selected {
+        color: #ffffff;
+        background-color: #2e8aea;
+    }
+
+        .manaoformsetting .fieldPicker .selected a {
+            color: #ffffff;
+        }
+
+    .manaoformsetting .fieldPicker i {
+        padding: 10px 10px 0 5px;
+        position: relative;
+        top: 2px;
+    }
+
+    .manaoformsetting .fieldPicker li:hover {
+        background: #f8f8f8;
+        cursor: pointer;
+    }
+
+    .manaoformsetting .fieldPicker .selected:hover {
+        color: #ffffff;
+        background-color: #2e8aea;
+    }

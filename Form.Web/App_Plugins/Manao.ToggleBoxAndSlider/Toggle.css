@@ -1,0 +1,60 @@
+.toggleSwitch .leftLabel {
+    min-width:80px;
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+    display: inline-block;
+    text-align:center;
+    cursor:pointer;
+     padding:5px 10px;
+     color:#fff;
+     opacity:0.3;
+     background:grey;
+}
+.toggleSwitch .rightLabel {
+    min-width:80px;
+    border-bottom-right-radius:15px;
+    border-top-right-radius:15px;
+    display: inline-block;
+    text-align:center;
+    cursor:pointer;
+    padding:5px 10px;
+    margin-left: -6px;
+    color:#fff;
+    opacity:0.3;
+     background:grey;
+}
+.toggleSwitch .rightLabel.active {
+    opacity:1;
+    background: #bd362f;
+}
+.toggleSwitch .leftLabel.active {
+    opacity:1;
+    background: #53a93f;
+}
+.toggleSwitch .rightLabel:hover {
+    opacity:1;
+    background: #bd362f;
+}
+.toggleSwitch .leftLabel:hover {
+    opacity:1;
+   background: #53a93f;
+}
+.slide-container {
+        margin-top:20px;
+}
+.slider-wrapper {
+    width:158px;
+    display: inline-block;
+    float: left;
+}
+output {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  width: 35px;
+   float: left;
+}
+.rangeslider__fill {
+  background: #53a93f !important;
+}

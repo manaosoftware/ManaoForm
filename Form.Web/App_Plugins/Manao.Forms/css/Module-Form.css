@@ -1,0 +1,895 @@
+﻿.manaoform * {  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    pointer-events:none;
+}
+ 
+.manaoform .form-group .alert {
+    display: none;
+    margin: 0;
+    text-align: right;
+    padding: 7px 0 0 0;
+    border: none;
+    font-size: 13px;
+    background: transparent;
+    color: #ee2a32;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.manaoform .form-group .fieldDescription {
+    font-size: 11px;
+    color: #000000; 
+    text-align: right;
+    margin-top: 11px;
+}
+
+.manaoform .form-group .error-require {
+    display:none;
+}
+.manaoform .form-group.error-require .error-require {
+    display:block;
+}
+.manaoform .form-group .error-invalid {
+    display:none;
+}
+.manaoform .form-group.error-invalid .error-invalid {
+    display:block;
+    margin-top:5px;
+}
+.manaoform .form-group .error-overMaxSize {
+    display:none;
+}
+.manaoform .form-group.error-overMaxSize .error-overMaxSize {
+    display:block;
+    margin-top:5px;
+}
+.manaoform .alert-danger {
+    padding: 10px 1px;
+    margin-top: 5px;
+    font-size:11px;
+    background: none;
+    border:none;
+    color:#ee2a32;
+}
+.manaoform .error-require,
+.manaoform .error-invalid,
+.manaoform .error-overMaxSize{
+    margin-bottom:-2px;
+}
+.manaoform .error-require .form-control,
+.manaoform .error-invalid .form-control {
+    border:1px solid #F00;
+}
+.manaoform .error-require textarea.form-control,
+.manaoform .error-invalid textarea.form-control {
+    border:1px solid #F00;
+}
+
+.manaoform .error-overMaxSize .form-control {
+    border:1px solid #F00;
+}
+.manaoform .error-require .radio-container,
+.manaoform .error-invalid .radio-container,
+.manaoform .error-overMaxSize .radio-container,
+.manaoform .error-require .checkbox-group-container,
+.manaoform .error-invalid .checkbox-group-container,
+.manaoform .error-overMaxSize .checkbox-group-container{
+    border-bottom:1px solid #F00 !important;
+}
+.manaoform .error-require .chosen-single,
+.manaoform .error-invalid .chosen-single,
+.manaoform .error-overMaxSize .chosen-single{
+    border:1px solid #F00;
+}
+.teddy-bear{
+    display:none;
+}
+
+.manaoform label{
+    margin-bottom: 6px;
+    font-weight: normal;
+    color: #000000;
+    font-size: 16px
+}
+.manaoform label em{
+    color: #ee2a32;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute; 
+}
+.manaoform em {
+    color: #d8292f;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: -11px;
+    z-index: 1
+}
+.manaoform .label-section label{
+    /*margin-bottom:14px;*/
+}
+.manaoform .form-group.hidden-row{
+    margin-bottom:0;
+}
+.manaoform .form-group{
+    margin-bottom:20px;
+}
+.manaoform .form-group p{
+    white-space:normal;
+}
+.manaoform .form-control {
+    border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-size:16px;
+    height:41px;
+    color:#414141;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    background:transparent;
+    border:1px solid #cccccc;
+    padding:10px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    width:100%;
+}
+.manaoform .form-control:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border:1px solid;
+}
+.manaoform .form-control.placeholder{
+    color:#888888;
+}
+.manaoform .form-control::-moz-placeholder{
+    color:#888888;
+}
+.manaoform .form-control::-webkit-input-placeholder {
+    color:#888888;
+}
+.manaoform textarea.form-control{ 
+    height:155px !important;
+    resize:vertical;
+    line-height:normal;
+    padding-top:11px;
+    padding-bottom:11px;
+    border:1px solid #000000;
+    background:#ffffff;
+}
+.manaoform textarea.form-control:focus{
+    border:1px solid;
+}
+.manaoform .chosen-container{
+    width:100% !important;
+}
+.manaoform .chosen-container-single .chosen-single{
+    border:none;
+    border:1px solid #cccccc;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background:transparent url(../Images/dropdown.png) no-repeat right 15px center  !important;
+    font-size:16px;
+    color:#414141;
+    height:41px;
+    padding:8px 15px;
+}
+.manaoform .chosen-container-single .chosen-single.chosen-default{
+    color:#888888;
+}
+html:not(.chrome):not(.mozilla):not(.safari) .manaoform .chosen-container-single .chosen-single{
+    padding-top:10px;
+}
+.manaoform .chosen-container-active.chosen-with-drop .chosen-single{
+    background:transparent url(../Images/dropdown.png) no-repeat right 15px center  !important;
+    border:none;
+    border:1px solid;
+}
+.manaoform .chosen-container .chosen-results li.disabled-result{
+    display:none;
+}
+.manaoform .chosen-container .chosen-drop{
+    border:1px solid #d1d3d4;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.manaoform .chosen-container .chosen-results{
+    padding:0;
+    margin:0;
+}
+.manaoform .chosen-container .chosen-results li{
+    padding:8px 15px;
+    font-size:14px;
+}
+.manaoform .chosen-container .chosen-results li:hover,
+.manaoform .chosen-container .chosen-results li.highlighted{
+    background:#a4cd38;
+    color:#ffffff;
+}
+.manaoform .chosen-container-single .chosen-single div b{
+    display:none;
+}
+.manaoform .checkbox-group p,
+.manaoform .radio-group p{
+    margin-bottom:13px;
+}
+.manaoform .checkbox-group p em,
+.manaoform .radio-group p em{
+    color:red;
+    font-weight:normal;
+    font-style:normal;
+}
+/*checkbox*/
+.checkbox-group-container{
+    border-bottom:1px solid #ffffff;
+}
+.radio-container{
+    border-bottom:1px solid #ffffff;
+}
+.greyRow .checkbox-group-container{
+    border-bottom:1px solid #ffffff;
+}
+.greyRow .radio-container{
+    border-bottom:1px solid #ffffff;
+}
+.manaoform .checkbox-form{
+    margin-bottom:6px;
+    padding-left:0;
+}
+.manaoform .checkbox-form .checkboxWrapper,
+.manaoform .radio-form .checkboxWrapper, 
+.manaoform .checkbox-form .checkBoxText, 
+.manaoform .radio-form .checkBoxText {
+    margin-bottom: 5px;
+}
+.manaoform .checkbox-form label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  font-weight:normal;
+}
+.manaoform .checkbox-form .checkbox-label {
+  background-image: url(../Images/uncheck.png);
+  background-size: auto 18px;
+}
+.manaoform .checkbox-form input[type=checkbox].input-checkbox, 
+.manaoform .radio-form input[type=checkbox].input-checkbox, 
+.manaoform .radio-form input[type=radio].input-checkbox {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    width: 1px;
+    height: 1px;
+}
+.manaoform .checkbox-form input[type=checkbox].input-checkbox+label.checkbox-label, 
+.manaoform .radio-form input[type=checkbox].input-checkbox+label.checkbox-label, 
+.manaoform .radio-form input[type=radio].input-checkbox+label.checkbox-label {
+    padding-left: 34px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    vertical-align: bottom;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    margin: 0;
+    font-size: 16px;
+}
+.manaoform .checkbox-form input[type=checkbox].input-checkbox:checked + label.checkbox-label {
+  background-image: url(../Images/check.png);
+}
+.manaoform .checkbox-group-container .label-section label{
+    display:block;
+}
+/*radio*/
+.manaoform .radio-group .checkbox-form .checkbox-label {
+  background-image: url(../Images/radio-uncheck.png);
+  background-size: auto 18px;
+}
+.manaoform .radio-form .checkbox-label {
+    background-image: url(../Images/radio-uncheck.png);
+    background-size: auto 18px;
+}
+.manaoform .radio-group .checkbox-form input[type=radio].input-checkbox:checked + label.checkbox-label {
+  background-image: url(../Images/radio-check.png);
+}
+.manaoform .radio-container .label-section label{
+    display:block;
+}
+.manaoform .form-submit{
+    text-align:right;
+}
+.manaoform .chosen-select{
+    color:#888888;
+}
+.manaoform .fileinput .form-control{
+    padding-top: 9px;
+    padding-right: 101px;
+    border-right: none
+}
+.manaoform .fileinput.input-group{
+    display: block;
+    margin-bottom: 0;
+    position: relative
+}
+
+.manaoform .fileinput .fileuploadBox{
+    line-height: normal;
+    width: 100%
+}
+.manaoform .fileinput-filename{
+    color: #a7a7a7;
+    width: 100%;
+    line-height: 25px;
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.manaoform .uploadFileButton,
+.manaoform .fileinput-exists,
+.manaoform .fileinput-new {
+    width: 100%;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: normal !important;
+    text-shadow: none;
+    color: #008dbe;
+}
+.manaoform .fileUploadBtnFile{
+    display: inline-block;
+    height: 40px;
+    width: 91px;
+    padding-top: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    z-index: 2 !important
+}
+
+.manaoform .fileinput-new.input-group .btn-file{
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0
+}
+.manaoform .fileUploadBtnFile:hover {
+    color: #ffffff !important
+}
+
+.manaoform .fileUploadBtnFile:hover .fileinput-new {
+    color: #ffffff !important
+}
+
+.manaoform .fileUploadBtnFile:hover .fileinput-exists {
+    color: #ffffff !important
+}
+
+.manaoform .fileUploadBtnFile input {
+    cursor: default
+} 
+.manaoform .fileinput-new, 
+.manaoform .fileinput-exists{
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:inline-block;
+    width:100%;
+    font-size:16px;
+    line-height:normal;
+    font-weight:normal !important;
+    text-shadow:none;
+}
+.manaoform .input-group-addon,
+.manaoform .input-group-addon:focus {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #008dbe !important;
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+.manaoform .input-group-addon:hover {
+    background: #d8292f
+}
+.manaoform .fileinput-exists {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.manaoform .fileinput-exists .fileinput-exists {
+    display: inline-block
+}
+
+.manaoform .fileinput-new {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+} 
+.manaoform .alert-danger{
+    margin-bottom:0;
+    margin-top:6px;
+    padding: 7px 15px;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+    border-radius:0;
+    display:none;
+    border:none;
+    font-size:14px;
+}
+.manaoform .error-require .error-require {
+    display:block;
+}
+.manaoform .error-invalid .error-invalid{
+    display:block;
+}
+.manaoform .checkbox-group .alert-danger,
+.manaoform .radio-group .alert-danger{
+    margin-bottom:10px;
+    margin-top:0;
+}
+ 
+.manaoform .submitForm, .manaoform .submitForm:hover, .manaoform .submitForm:focus{
+    min-width: 183px;
+    max-width: none;
+    width: auto;
+    padding: 4px 15px 4px 15px;
+    text-transform: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: #008dbe 1px solid;
+    color: #008dbe;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+.manaoform .submitForm:hover{
+    background:transparent;
+    color:#a4cd38;
+}
+.winney-the-pooh{
+    display:none;
+}
+.formRTE{
+    margin-bottom:26px;
+    text-align:center;
+}
+.formRTE > *:last-child{
+    margin-bottom:0;
+}
+.lineBottom{
+    text-align:center;
+    height:2px;
+    font-size:0;
+}
+.lineBottom:after{
+    content:'';
+    width:98px;
+    height:2px;
+    background:#a4cd38;
+    display:inline-block;
+}
+
+.manaoform .requiredWarning {
+    color: #d8292f;
+    margin-bottom: 6px
+}
+
+.manaoform .generalButton,.manaoform .generalButton:focus,.manaoform a.generalButton,.manaoform a.generalButton:focus {
+    display: inline-block;
+    font-family: 'opensansRegular';
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #3c3c3b;
+    border: 1px solid #3c3c3b;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 4px 15px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    max-width: 270px;
+    transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s;
+}
+ .manaoform .redButton,.manaoform .redButton:focus,.manaoform a.redButton:focus,.manaoform a.redButton,.manaoform a.redButton:focus {
+    background: #fff;
+    color: #d8292f;
+    border-color: #d8292f;
+}
+.manaoform .formDescription{
+    font-size: 13px;
+    font-family: 'opensansRegular';
+}
+.manaoform .formDescription{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.manaoform .form-group.submitSection{
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+}
+.formDescription h1,
+.formDescription .h1Style,
+.formDescription h2,
+.formDescription .h2Style,
+.formDescription h3,
+.formDescription .h3Style {
+    position: relative;
+    font-family: 'opensansBold';
+    color: #d8292f;
+    line-height: 1.3;
+    margin-top: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    letter-spacing: 2px
+}
+
+.formDescription h2,
+.formDescription .h2Style {
+    font-family: 'opensansRegular'
+}
+
+.formDescription h3,
+.formDescription .h3Style {
+    color: #1d1d1b;
+    margin-bottom: 3px
+}
+
+.formDescription h3.headline:after,
+.formDescription .headline.h3Style:after {
+    background: #1d1d1b
+}
+
+.formDescription .headline {
+    position: relative;
+    text-align: center;
+    margin-left: -15px;
+    margin-right: -15px;
+    backface-visibility: hidden
+}
+
+.formDescription .headline:after {
+    content: '';
+    height: 1px;
+    background: #d8292f;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 0
+}
+
+.formDescription .headline.blackText {
+    color: #1d1d1b
+}
+
+.formDescription .headline.blackText:after {
+    background: #1d1d1b
+}
+
+.formDescription .headline.whiteText {
+    color: #ffffff
+}
+
+.formDescription .headline.whiteText:after {
+    background: #ffffff
+}
+
+.formDescription .headline span {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: #ffffff
+}
+
+.formDescription h3.headline:after,
+.formDescription .headline.h3Style:after {
+    top: 12px
+}
+
+
+.formDescription p {
+    margin: 0 0 18px 0;
+    line-height: 1.45
+}
+
+.formDescription ul,
+.formDescription ol {
+    margin: 0 0 18px 0;
+    padding: 0 0 0 17px;
+    line-height: 1.45
+}
+
+.formDescription ul li,
+.formDescription ol li {
+    padding-left: 5px
+}
+
+.formDescription button {
+    outline: none
+}
+
+.formDescription a,
+.formDescription a:focus,
+.formDescription a:active,
+.formDescription a:hover {
+    outline: none;
+    text-decoration: underline;
+    color: #d8292f
+}
+
+.formDescription a:hover {
+    text-decoration: none
+}
+
+.formDescription b,
+.formDescription strong {
+    font-family: 'opensansBold';
+    font-weight: normal
+}
+
+.formDescription img {
+    max-width: 100%
+}
+
+.formDescription hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-top: 1px solid #1d1d1b
+}
+
+.formDescription .center {
+    text-align: center
+}
+
+
+.manaoform .dragDropFile .dragDropSection {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 3px dashed #aab2bd;
+    margin-bottom: 17px
+}
+
+    .manaoform .dragDropFile .dragDropSection .drop-box {
+        width: 100%;
+        height: 194px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+        -moz-opacity: 0;
+        -khtml-opacity: 0;
+        opacity: 0;
+    }
+
+    .manaoform .dragDropFile .dragDropSection .dragDropMockfield {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 15px;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        z-index: 1;
+        transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%)
+    }
+
+.manaoform .dragDropFile .list-group .list-group-item {
+    font-size: 14px;
+    padding-right: 20px;
+    border-color: #9fce67;
+}
+
+    .manaoform .dragDropFile .list-group .list-group-item i {
+        color: #ee2a32;
+        font-size: 18px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        bottom: auto;
+        left: auto;
+        z-index: 1
+    }
+
+
+@media (min-width: 480px) {
+    /*big mobile*/
+}
+
+@media (min-width: 768px) {
+    /*tablet*/
+    .form-group.dropdown em{ 
+        left: -25px
+    }
+    .manaoform div[class^='col'],
+    .manaoform div[class*='col']{
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .manaoform div[class^='-6'],
+    .manaoform div[class*='-6']{
+        width:50%;
+    }
+    .manaoform div[class^='-12'],
+    .manaoform div[class*='-12']{
+        width:100%;
+    }
+    .manaoform .form-group .alert {
+        min-height:39px;
+        padding: 4px 0 3px;
+    }
+    .formModule{
+        padding:0 4px;
+    }
+.manaoform .form-group .form-control {
+    border: 1px solid #000000;
+    font-size: 13px;
+    height: 40px;
+    color: #000000;
+    background: transparent;
+    background-color: #ffffff;
+    padding: 10px 11px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0
+}
+
+    .manaoform .form-group .form-control:focus {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none
+    }
+
+    .manaoform .form-group .form-control.placeholder {
+        color: #000000
+    }
+
+    .manaoform .form-group .form-control::-moz-placeholder {
+        color: #000000
+    }
+
+    .manaoform .form-group .form-control::-webkit-input-placeholder {
+        color: #000000
+    }
+    .manaoform .fileinput .fileuploadBox{
+        border-right-color:#ffffff;
+        width:75%;
+    }
+    .manaoform .fileUploadBtnFile{
+        width:25% !important;
+    }
+    .manaoform .checkbox-group .label-section,
+    .manaoform .radio-group .label-section{
+        padding-top:0;
+    }
+    .formRTE{
+        margin-bottom:32px;
+    }
+
+    .manaoform .submitForm, .manaoform .submitForm:hover, .manaoform .submitForm:focus{
+        width:auto;
+        min-width:220px;
+        font-size:20px;
+        padding: 8px 30px 6px;
+    }
+
+    .formDescription h1,
+    .formDescription .h1Style {
+        font-size: 30px;
+        margin-bottom: 42px
+    }
+    .formDescription h2,
+    .formDescription .h2Style {
+        font-size: 28px;
+        margin-bottom: 40px
+    }
+    .formDescription h3,
+    .formDescription .h3Style {
+        font-size: 20px
+    }
+    .formDescription .headline span {
+        padding-left: 8px;
+        padding-right: 8px
+    }
+    .formDescription .headline:after {
+        top: 20px
+    }
+} 
+
+@media (min-width: 992px) {
+    /*small desktop*/
+    .formModule{
+        padding:0 10px;
+    }
+
+    .manaoform em {
+        font-size: 16px;
+        left: 0px
+    }
+
+    .form-group.dropdown em{ 
+        left: -15px
+    }
+
+    .twoColumns form .fileinput .fileuploadBox{
+        width:70%;
+    }
+    .twoColumns form .fileUploadBtnFile{
+        width:30% !important;
+    }
+    .formRTE {
+        margin-bottom: 37px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /*large desktop*/
+    .formModule{
+        padding:0 24px;
+    }
+    .manaoform .fileinput .fileuploadBox{
+        width:75%;
+    }
+    .manaoform .fileUploadBtnFile{
+        width:25% !important;
+    }
+    .formRTE {
+        margin-bottom: 40px;
+    }
+}

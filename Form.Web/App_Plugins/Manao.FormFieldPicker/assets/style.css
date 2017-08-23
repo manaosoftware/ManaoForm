@@ -1,0 +1,49 @@
+﻿.manaoFormField .fieldPicker {
+    padding: 0;
+    margin: 0 0 80px 0;
+    position: relative;
+    padding: 5px 0 5px 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+    .manaoFormField .fieldPicker li {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        position:relative;
+        line-height:15px;
+    }
+
+    .manaoFormField .fieldPicker .selected {
+        color: #ffffff;
+        background-color: #2e8aea;
+    }
+
+        .manaoFormField .fieldPicker .selected a {
+            color: #ffffff;
+        }
+
+    .manaoFormField .fieldPicker i {
+        padding: 3px;
+        position: absolute;
+        top:7px;
+        left:5px;
+        font-size:14px;
+    }
+
+    .manaoFormField .fieldPicker li a {
+        display: block;
+        padding: 10px 10px 10px 40px;
+    }
+        .manaoFormField .fieldPicker li a:hover {
+            background: #2E8AEA;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+        }
+
+    .manaoFormField .fieldPicker .selected:hover {
+        color: #ffffff;
+        background-color: #2e8aea;
+    }

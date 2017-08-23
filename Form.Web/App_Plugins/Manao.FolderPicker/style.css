@@ -1,0 +1,339 @@
+/*This  css style for view on backend*/
+.manaoform {
+    padding: 20px 20px 30px 20px;
+    overflow: visible;
+    height: 100%;
+    margin-bottom:20px;
+}
+.manaoform .form-field{
+    position:relative;
+}
+    .manaoform .form-field .field-label {
+        width: 95%;
+        height: 30px;
+        border: none;
+        font-size: 20px;
+        background: none;
+    }
+
+    .manaoform .form-field .field-label-textbox {
+        width: 80%;
+        border: none;
+        font-size: 20px;
+        background: none;
+    }
+
+    .manaoform .form-field .field-label-multi-textbox {
+        width: 70%;
+        border: none;
+        font-size: 15px;
+        background: none;
+        border-bottom: 1px dashed #cdcdcd;
+        padding-left: 2px;
+    }
+
+    .manaoform .form-field .field-placeholder {
+        width: 100%;
+        height: 40px;
+        padding: 4px 15px;
+        margin-top: 5px;
+        color: #cdcdcd;
+        box-sizing:border-box;
+    }
+
+    .manaoform .field-placeholder.textarea {
+        height: 150px;
+        resize: none;
+    }
+
+    .manaoform input[type=checkbox], .manaoform input[type=radio] {
+        width: 18px;
+        height: 18px;
+        margin-top: 8px;
+    }
+
+    .manaoform .form-field .add-option, .manaoform .form-field .remove-option {
+        cursor: pointer;
+    }
+        .manaoform .form-field .add-option {
+            font-size: 26px;
+            color: #777;
+            margin: 5px 15px;
+        }
+        .manaoform .form-field .remove-option {
+            font-size: 16px;
+            color: red;
+            margin-top: 8px;
+        }
+
+    .manaoform .form-field .toggle-down {
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .dropdown-wrap{
+        position:relative;
+    }
+    .manaoform .form-field .toggle-down {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+    }
+
+    .manaoform .form-field .moveable {
+        padding: 5px 15px 5px 0;
+    }
+    .manaoform .form-field .dropdown .moveable{
+        padding-left:15px;
+    }
+
+    .manaoform .form-field .options.dropdown {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        z-index: 999999;
+        border: 1px solid #ccc;
+        top: 82px;
+        max-height: 200px;
+        overflow-y: auto;
+        cursor: default;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .manaoform .require-field input {
+        float: left;
+    }
+
+    .manaoform .require-field label {
+        float: left;
+        margin-left: 5px;
+        position: relative;
+        top: 2px;
+        font-weight: bold;
+    }
+
+    .manaoform .require-field input[type=checkbox] {
+        margin-top: 3px;
+    }
+
+    .manaoform .require-field {
+        /*display:none;*/
+        margin-top: 20px;
+    }
+
+    .manaoform:hover .require-field {
+        transition: opacity .25s ease-in-out;
+        display: block;
+        opacity: 1;
+    }
+
+    .manaoform .uploadField {
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        width: 96%;
+        padding-left: 15px;
+    }
+
+    .manaoform .btn.fileUploadBtnFile {
+        float: right;
+        margin: 0;
+        border: none;
+        width: 20%;
+        padding: 10px 0;
+        min-height: 20px;
+    }
+
+    .manaoform .uploadField .btn {
+        text-decoration: none;
+    }
+
+    .manaoform .editForm .fieldItem .form-field .field-placeholder {
+        height: 30px;
+        color: #cdcdcd;
+        border-radius: 4px;
+    }
+
+    .manaoform .uploadField .field-placeholder {
+        float: left;
+        border: none;
+        margin: 0;
+        box-shadow: none;
+        padding: 5px 0;
+        width: 80%;
+    }
+
+/*This  css style for setting panel*/
+.manaoformsetting {
+    padding: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+    .manaoformsetting h5 {
+        font-weight: normal;
+        font-size: 22px;
+        color: #929292;
+    }
+
+    .manaoformsetting .form {
+        margin-top: 30px;
+    }
+
+        .manaoformsetting .form .field label {
+            font-weight: bold;
+        }
+
+    .manaoformsetting .btn-toolbar {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .manaoformsetting .field-sign {
+        background-color: #ebebeb;
+        color: #97989a;
+        position: absolute;
+        top: 39px;
+        right: 87px;
+        padding: 3px 13px;
+        border-radius: 5px;
+    }
+
+        .manaoformsetting .field-sign .fa {
+            margin-right: 5px;
+        }
+
+    .manaoformsetting .form .field {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .manaoformsetting .form .field input[type=text], .manaoformsetting .form .field input[type=email], .manaoformsetting .form .field textarea {
+            width: 90%;
+        }
+
+        .manaoformsetting .form .field textarea {
+            height: 100px;
+            resize: none;
+            border-radius: 5px;
+        }
+
+        .manaoformsetting .form .field input[type=checkbox] {
+            width: 18px;
+            height: 18px;
+            float: left;
+            position: relative;
+            z-index: 1;
+        }
+
+    .manaoformsetting .form label.checkbox {
+        position: relative;
+        left: 5px;
+        top: 2px;
+    }
+
+    .manaoformsetting .form .field.optiongroup {
+        padding: 10px 0px 20px 0;
+        margin-bottom:0;
+    }
+
+        .manaoformsetting .form .field.optiongroup .option {
+            /*margin: 15px 0;*/
+        }
+
+    .manaoformsetting .form .label-add-option {
+        font-weight: bold;
+        display: inline-block;
+        padding-bottom:40px;
+    }
+
+    .manaoformsetting .form .add-option, .manaoformsetting .form .remove-option {
+        cursor: pointer;
+    }
+        .manaoformsetting .form .add-option {
+            font-size: 26px;
+            color: #777;
+        }
+        .manaoformsetting .form .remove-option, .manaoformsetting .form .drag-option {
+            font-size: 16px;
+            position: relative;
+            top: -5px;
+            left: 2px;
+        }
+        .manaoformsetting .form .remove-option {
+            color: chocolate;
+        }
+        .manaoformsetting .form .drag-option {
+            color: #3F92D2;
+            top: -4px;
+            left: 0;
+        }
+
+    .manaoformsetting .form .moveable {
+        cursor: move;
+    }
+
+
+    .manaoformsetting .upload-folder {
+        margin-bottom: 20px;
+    }
+
+        .manaoformsetting .upload-folder .select-folder {
+            padding: 10px;
+            border: 1px dashed #ccc;
+            width: 88.5%;
+            display: inline-block;
+            color: #ccc;
+            cursor: pointer;
+        }
+
+        .manaoformsetting .upload-folder .selected-folder {
+            width: 88.5%;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+            .manaoformsetting .upload-folder .selected-folder .folder-name:hover {
+                text-decoration: underline;
+            }
+
+            .manaoformsetting .upload-folder .selected-folder i {
+                font-size: 17px;
+                position: relative;
+                top: 2px;
+            }
+
+
+.manaoFormPicker {
+    padding: 5px 30px;
+}
+
+    .manaoFormPicker .field label {
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+.smallFormPicker input {
+    display: block;
+    margin-top: 0;
+    color: #242f3a;
+    border: none;
+    font-size: 36px;
+    height: 40px;
+    margin-left: -8px;
+    /*border-bottom: 1px dashed #dfdfdf;*/
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.smallFormPicker select {
+    display: block;
+}
+
+.smallFormPicker label {
+    display: block;
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en">
+  <emailfield>
+    <viewEmailFieldName>Email Field</viewEmailFieldName>
+    <labelEmailFieldSettingName>Email Fields</labelEmailFieldSettingName>
+    <labelAddNode>Add new</labelAddNode>
+    <buttonClose>Close</buttonClose>
+  
+</emailfield>  
+</language>

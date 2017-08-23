@@ -1,0 +1,17 @@
+﻿<div class="manaoformsetting" data-ng-controller="manaoGridControlSelectorSettingController">
+    <!--field list-->
+    <ul class="fieldPicker">
+        <li data-ng-repeat="field in fields" data-ng-click="select(field)" class="{{field.Style}}">
+            <i class="{{field.Icon}}"></i>
+            <a>{{field.Name}}</a>
+        </li>
+    </ul>
+
+    <!--End field list -->
+    <!--Start Close Button-->
+    <div class="btn-toolbar umb-btn-toolbar pull-right">
+        <a href="javascript:void(0)" data-ng-click="close()" class="btn btn-link">Cancel</a>
+    </div>
+    <!--End Close Button-->
+
+</div>

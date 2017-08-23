@@ -1,0 +1,25 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@using FormPackage6.Core.DomainModel.Form;
+
+@{
+    if (Model != null)
+    {
+        Field field = AutoMapper.Mapper.Map<Field>(Model.Items.FirstOrDefault());
+        <div class="manaoformBackoffice">
+            <div class="form-field">
+                <div class="form-field">
+                    <label class="field-label">@field.Name</label>
+                </div>
+                <div>
+                    @foreach (var option in field.Options)
+                    {
+                        <div class="moveable">
+                            <input type="radio" />
+                            <input type="text" class="field-label-multi-textbox" value="@option.Name">
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+}

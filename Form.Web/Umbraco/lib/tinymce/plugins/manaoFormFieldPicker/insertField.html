@@ -1,0 +1,26 @@
+﻿<div ng-controller="manaoInsertFieldController" class="umb-panel manaoFormField">
+    <form name="form">
+        <div class="umb-panel-header">
+            <h3>Insert Field</h3>
+        </div>
+        <div class="umb-panel-body">
+            <ul class="fieldPicker">
+                <li data-ng-repeat="field in fields" data-ng-click="select($index)" class="{{field.Style}}">
+                    
+                    <a><i class="{{field.FieldType.Icon}}"></i>{{field.Name}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="umb-panel-footer">
+            <div class="pull-right">
+                <a href="" ng-click="close()" class="btn btn-link">
+                    <localize key="general_cancel">Cancel</localize>
+                </a>
+
+                <!--<button class="btn btn-success" ng-click="done()" ng-disabled="!isValid()">
+                    <localize key="general_insert">Insert</localize>
+                </button>-->
+            </div>
+        </div>
+    </form>
+</div>

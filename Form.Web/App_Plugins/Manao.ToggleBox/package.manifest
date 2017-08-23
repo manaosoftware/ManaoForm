@@ -1,0 +1,40 @@
+{    
+    propertyEditors: [      
+        {
+            alias: "Manao.ToggleBox",
+            name: "[Manao] Toggle Box",
+            editor: {
+                view: "~/App_Plugins/Manao.ToggleBox/view.html"
+            },
+			prevalues: {
+				fields: [
+					{
+						label: "'On' label",
+						description: "The label text for the true (on) state",
+						key: "onlabel",
+						view: "textstring"
+					},
+					{
+						label: "'Off' label",
+						description: "The label text for the false (off) state",
+						key: "offlabel",
+						view: "textstring"
+					},
+					{
+						label: "Default state",
+						description: "checked is true",
+						key: "default",
+						view: "boolean"
+					}
+				]
+			}
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/Manao.ToggleBox/main.controller.js'
+    ],
+	css: [
+		'~/App_Plugins/Manao.ToggleBoxAndSlider/Toggle.css'
+	]
+}

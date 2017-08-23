@@ -1,0 +1,15 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@using FormPackage6.Core.DomainModel.Form;
+
+@{
+    if (Model != null)
+    {
+        Field field = AutoMapper.Mapper.Map<Field>(Model.Items.FirstOrDefault());
+        <div class="manaoformBackoffice">
+            <div class="form-field">
+                <label class="field-label">@field.Name</label>
+                <input type="tel" placeholder="@field.Placeholder" class="field-placeholder" />
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,13 @@
+<div data-ng-controller="ManaoFolderPickerController" data-dictionary="/App_Plugins/Manao.FolderPicker/Lib/Lang/">
+    <div class="field upload-folder">
+        <span class="select-folder" data-ng-if="!model.value.id" data-ng-click="openFolderPicker()">
+            <i class="icon-folder"></i> 
+            {{dictionary.field.selectuploadfolder}}
+        </span>
+        <span class="selected-folder" data-ng-if="model.value.id">
+            <i class="icon-remove red" data-ng-click="removeFolder()"></i>
+            <i class="icon-folder" data-ng-click="openFolderPicker()"></i>
+            <span class="folder-name" data-ng-click="openFolderPicker()">{{model.value.name}}</span>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language alias="en"> 
+  <field>
+      <uploadfield>Upload</uploadfield>
+      <fieldlabel>Name:</fieldlabel>
+      <labelplaceholder>Input name</labelplaceholder>
+      <placeholder>Help text</placeholder>
+      <placeholderlabel>Placeholder:</placeholderlabel>
+      <uploadfieldselectfilelabel>Select file</uploadfieldselectfilelabel>
+      <uploadfieldselectfileplaceholder>Shown on button if no file is selected</uploadfieldselectfileplaceholder>
+      <uploadfieldchangefilelabel>Change file</uploadfieldchangefilelabel>
+      <uploadfieldchangefileplaceholder>Shown on button if a file has been selected</uploadfieldchangefileplaceholder>
+      <uploadfieldlabel>Upload to</uploadfieldlabel>
+      <uploadfieldhelptext>Choose a folder in the media section where the file will be added.</uploadfieldhelptext>
+      <uploadfielderrormessage>Only folders are allowed</uploadfielderrormessage>
+      <selectuploadfolder>Select upload folder</selectuploadfolder>
+      <placeholderErrorMessage>Error message</placeholderErrorMessage> 
+      <requirelabel>Mandatory</requirelabel>
+      <sectiontitle>Field settings</sectiontitle>
+      <errorMessage>Error message for </errorMessage>
+  </field>
+  <general>
+    <close>Close</close>
+    <fail>Fail</fail>
+  </general>
+</language>

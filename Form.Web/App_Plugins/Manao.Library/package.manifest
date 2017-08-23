@@ -1,0 +1,11 @@
+﻿{
+    "javascript": [
+        "~/App_Plugins/Manao.Library/script/Dictionary.Resource.js",
+        "~/App_Plugins/Manao.Library/script/slimsy.init.js"
+    ],
+    "css": [
+        "~/App_Plugins/Manao.Library/css/Back-end.css",
+        "~/App_Plugins/Manao.Library/css/Image-Module.css",
+        "~/App_Plugins/Manao.Library/css/Setting-Module.css"
+    ]
+}

@@ -1,0 +1,36 @@
+{    
+	propertyEditors: [
+		{
+			alias: "manaoGridControlSelector",
+			name: "[Manao] Grid Control Selector",
+			editor:{
+				view: "~/App_Plugins/Manao.GridControlSelector/manaoGridControlPicker.html"
+			},
+			prevalues: {
+				fields: [
+					{
+						label: "Control Alias",
+						description: "Add filed alias to select only type; separatd by comma(,) to filter by control types",
+						key: "controlAlias",
+						view: "textstring"
+					},
+                    {
+                        "label": "Max",
+                        "key": "max",
+                        "description": "Maximum number of items",
+                        "view": "number"
+                    }
+				]
+			}
+				
+		}
+	],
+
+    javascript: [
+		'~/App_Plugins/Manao.GridControlSelector/resource.js'
+		,'~/App_Plugins/Manao.GridControlSelector/controller.js'
+    ],
+	css: [
+		'~/App_Plugins/Manao.GridControlSelector/style.css'	
+	]
+}

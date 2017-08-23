@@ -1,0 +1,15 @@
+﻿<div class="manaoGridControlPicker" data-ng-controller="manaoGridControlPickerController">
+    <ul class="fieldPicker" data-ng-if="model.value.length">
+        <li data-ng-repeat="field in model.value" data-ng-click="select(field)">
+            <i class="{{field.Icon}}"></i>
+            <a>{{field.Name}}</a>
+        </li>
+    </ul>
+    <div class="fieldPicker add" ng-if="model.config.max == null || model.config.max == '' || model.config.max == undefined || model.value.length < model.config.max">
+        <i class="icon icon-whhg-plus-sign"></i> <a data-ng-click='openItemSetting()'>Add</a>
+    </div>
+    <div class="fieldPicker editForm" ng-if="model.config.max == 1 && model.value.length">
+        <a data-ng-click='openItemSetting()'>Edit</a>
+    </div>
+</div>
+

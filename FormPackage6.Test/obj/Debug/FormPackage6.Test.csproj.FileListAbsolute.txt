@@ -1,0 +1,169 @@
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\umbracoSettings.config
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\umbracoSettings.minimal.config
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\web.config
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Umbraco.Tests.dll.config
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Umbraco.Tests.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Umbraco.Tests.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Application.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Core.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Dispatcher.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Infrastructure.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Mono.Cecil.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Mono.Cecil.Mdb.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Mono.Cecil.Pdb.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Mono.Cecil.Rocks.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\nunit.engine.api.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\nunit.engine.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\NUnit3.TestAdapter.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Lecoati.LeBlender.Extension.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Skybrud.Umbraco.GridData.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\StructureMap.Web.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Http.WebHost.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Newtonsoft.Json.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\StructureMap.Net4.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FluentValidation.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Archetype.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.MacroEngines.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\cms.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Helpers.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.DataLayer.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\controls.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.providers.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\log4net.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\TidyNet.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Application.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Core.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Dispatcher.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FormPackage6.Infrastructure.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\AutoMapper.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\businesslogic.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Castle.Core.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\EntityFramework.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\EntityFramework.SqlServer.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\interfaces.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Lucene.Net.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Owin.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Owin.Security.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\MiniProfiler.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Moq.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\nunit.framework.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\SQLCE4Umbraco.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Net.Http.Formatting.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Http.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Mvc.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.WebPages.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.1.0.5948.18146.Fakes.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Umbraco.Core.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\UmbracoExamine.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Skybrud.Umbraco.GridData.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\StructureMap.Web.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Http.WebHost.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Newtonsoft.Json.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\FluentValidation.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.MacroEngines.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\cms.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.Helpers.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.DataLayer.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\controls.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\umbraco.providers.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\cs\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\da\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\de\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\es\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\fa\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\fi\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\fr\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\it\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\ko\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\mk\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\nl\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\pl\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\pt\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\ru\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\sv\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\tr\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\obj\Debug\FormPackage6.Test.csprojResolveAssemblyReference.cache
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\obj\Debug\Umbraco.Tests.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Test\obj\Debug\Umbraco.Tests.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\umbracoSettings.config
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\umbracoSettings.minimal.config
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Configurations\UmbracoSettings\web.config
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Umbraco.Tests.dll.config
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Umbraco.Tests.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Umbraco.Tests.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Application.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Core.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Dispatcher.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Infrastructure.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Mono.Cecil.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Mono.Cecil.Mdb.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Mono.Cecil.Pdb.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Mono.Cecil.Rocks.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\nunit.engine.api.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\nunit.engine.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\NUnit3.TestAdapter.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Lecoati.LeBlender.Extension.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Skybrud.Umbraco.GridData.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\StructureMap.Web.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\System.Web.Http.WebHost.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Newtonsoft.Json.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\StructureMap.Net4.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FluentValidation.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Archetype.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\umbraco.MacroEngines.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\cms.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\System.Web.Helpers.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\umbraco.DataLayer.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\TidyNet.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Application.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Core.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Dispatcher.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FormPackage6.Infrastructure.pdb
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Skybrud.Umbraco.GridData.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\StructureMap.Web.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\System.Web.Http.WebHost.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Newtonsoft.Json.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\FluentValidation.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\umbraco.MacroEngines.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\cms.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\System.Web.Helpers.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\umbraco.DataLayer.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\cs\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\da\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\de\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\es\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\fa\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\fi\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\fr\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\it\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\ko\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\mk\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\nl\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\pl\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\pt\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\ru\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\sv\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\tr\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Test\obj\Debug\FormPackage6.Test.csprojResolveAssemblyReference.cache
+D:\github\ManaoForm\FormPackage6.Test\obj\Debug\Umbraco.Tests.dll
+D:\github\ManaoForm\FormPackage6.Test\obj\Debug\Umbraco.Tests.pdb

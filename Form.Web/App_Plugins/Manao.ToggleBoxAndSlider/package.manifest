@@ -1,0 +1,53 @@
+{    
+    propertyEditors: [      
+        {
+            alias: "Manao.ToggleBoxAndSlider",
+            name: "[Manao] Toggle Box And Slider",
+            editor: {
+                view: "~/App_Plugins/Manao.ToggleBoxAndSlider/view.html"
+            },
+			prevalues: {
+				fields: [
+					{
+						label: "'On' label",
+						description: "The label text for the true (on) state",
+						key: "onlabel",
+						view: "textstring"
+					},
+					{
+						label: "'Off' label",
+						description: "The label text for the false (off) state",
+						key: "offlabel",
+						view: "textstring"
+					},
+					{
+						label: "'On' background",
+						description: "The background-color for the true (on) state (input color code with # or color name : #ffffff, red)",
+						key: "onbg",
+						view: "textstring"
+					},
+					{
+						label: "'Off' background",
+						description: "The background-color for the fales (off) state (input color code with # or color name : #ffffff, red)",
+						key: "offbg",
+						view: "textstring"
+					},
+					{
+						label: "Default state",
+						description: "checked is true",
+						key: "default",
+						view: "boolean"
+					}
+				]
+			}
+        }
+    ]
+    ,
+    javascript: [
+        '~/App_Plugins/Manao.ToggleBoxAndSlider/main.controller.js',
+        '~/App_Plugins/Manao.ToggleBoxAndSlider/slider/rangeslider.min.js'
+    ],
+	css: [
+        '~/App_Plugins/Manao.ToggleBoxAndSlider/slider/rangeslider.css'
+	]
+}

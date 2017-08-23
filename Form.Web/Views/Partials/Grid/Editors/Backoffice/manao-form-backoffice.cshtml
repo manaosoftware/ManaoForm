@@ -1,0 +1,190 @@
+﻿@model FormPackage6.Core.DomainModel.Form.FormPicker
+@using Skybrud.Umbraco.GridData;
+@using Umbraco.Web.Templates;
+@using FormPackage6.Core.DomainModel.Form;
+@using FormPackage6.Core.Alias;
+
+<div class="manaoform formModule module">
+    @if (!string.IsNullOrEmpty(Model.FormHeader))
+    {
+        <p>@Html.Raw(TemplateUtilities.ParseInternalLinks(Model.FormHeader))</p>
+    }
+    <div class="formContainer">
+        <div id="@Model.Form.Id" class="manaoform">
+            @foreach (GridSection gridSection in Model.Form.DataModel.Sections)
+            {
+                foreach (GridRow row in gridSection.Rows)
+                {
+                    <div class="row">
+                        @foreach (var area in row.Areas)
+                        {
+                            int areaCount = row.Areas.Count();
+                            <div class="col-sm-@(12/areaCount)">
+                                @foreach (GridControl control in area.Controls)
+                                {
+                                    Field field = Model.Form.Fields.Where(f => f.Id == (string)control.JObject.GetValue("guid")).FirstOrDefault();
+                                    if (field != null)
+                                    {
+                                        string requireAttribute = string.Empty;
+                                        if (field.Mandatory)
+                                        {
+                                            requireAttribute = "required";
+                                            field.Name += " <em>*</em>";
+                                        }
+
+                                        string fieldRepresent = string.IsNullOrEmpty(field.Name) ? field.Id : field.Name;
+                                        string errorMessageFieldRepresent = "<strong>" + fieldRepresent + "</strong>";
+
+                                        if (field.FieldType.Type.Equals(PropertyAlias.Label))
+                                        {
+                                            <div class="form-group">
+                                                <label id="label-@field.Id" name="label-@field.Id" for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <input type="hidden" id="@field.Id" name="@field.Id" value="@field.Name" />
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Text))
+                                        {
+                                            <div class="form-group">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <input type="text" class="form-control" id="@field.Id" name="@field.Id"
+                                                       value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Email))
+                                        {
+                                            <div class="form-group">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <input type="email" class="form-control" id="@field.Id" name="@field.Id"
+                                                       value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Phone))
+                                        {
+                                            <div class="form-group phone">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <input type="tel" class="form-control" id="@field.Id" name="@field.Id"
+                                                       value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.TextArea))
+                                        {
+                                            <div class="form-group textarea">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <textarea class="form-control" id="@field.Id" name="@field.Id"
+                                                          placeholder="@field.Placeholder" data-require="@requireAttribute">@field.Value</textarea>
+                                                </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Dropdown))
+                                        {
+                                            <div class="form-group dropdown">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <div class="input-section">
+                                                    <select class="form-control chosen-select" id="@field.Id" name="@field.Id" data-require="@requireAttribute" data-placeholder="@field.Placeholder">
+                                                        <option value=""></option>
+                                                        @foreach (var option in field.Options)
+                                                        {
+                                                            <option value="@option.Name">@option.Name</option>
+                                                        }
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Checkbox))
+                                        {
+                                            <div class="form-group checkbox-group">
+                                                <div data-require="@requireAttribute" class="checkbox-group-container clearfix">
+                                                    <div class="label-section">
+                                                        <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                    </div>
+                                                    <div class="checkbox-form clearfix">
+                                                        @foreach (var option in field.Options)
+                                                        {
+                                                            var fieldId = !string.IsNullOrEmpty(option.Name) ? field.Id + option.Name.Replace(" ", "-") : field.Id;
+
+                                                            <div class="checkboxWrapper">
+                                                                <input type="checkbox" id="@fieldId" name="@field.Id" value="@option.Name" class="input-checkbox" />
+                                                                <label for="@fieldId" class="checkbox-label">@option.Name</label>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Radio))
+                                        {
+                                            <div class="form-group radio-group">
+                                                <div data-require="@requireAttribute" class="radio-group-container clearfix">
+                                                    <div class="label-section">
+                                                        <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                    </div>
+                                                    <div class="radio-form clearfix">
+                                                        @foreach (var option in field.Options)
+                                                        {
+                                                            var fieldId = !string.IsNullOrEmpty(option.Name) ? field.Id + option.Name.Replace(" ", "-") : field.Id;
+
+                                                            <div class="checkboxWrapper">
+                                                                <input type="radio" id="@fieldId" name="@field.Id" value="@option.Name" class="input-checkbox" />
+                                                                <label for="@fieldId" class="checkbox-label">@option.Name</label>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.Upload))
+                                        {
+                                            <div class="form-group">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                    <div class="form-control fileuploadBox" data-trigger="fileinput">
+                                                        <span class="fileinput-filename fileUploadText">@field.Placeholder</span>
+                                                    </div>
+                                                    <span class="input-group-addon btn btn-default btn-file fileUploadBtnFile">
+                                                        <span class="fileinput-new">@field.SelectFileText</span>
+                                                        <span class="fileinput-exists">@field.ChangeFileText</span>
+                                                        <input type="file" id="@field.Id" name="@field.Id" data-require="@requireAttribute" data-maxfilesize="@field.MaxFileSize">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        }
+                                        else if (field.FieldType.Type.Equals(PropertyAlias.DragDropUpload))
+                                        {
+                                            <div class="form-group dragDropFile">
+                                                <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                <div class="dragDropSection">
+                                                    <input type="file"
+                                                           id="@field.Id"
+                                                           name="@field.Id"
+                                                           ngf-select="uploadDragAndDropFiles($files, '@(field.Id)')"
+                                                           ngf-drop="uploadDragAndDropFiles($files, '@(field.Id)')"
+                                                           class="drop-box"
+                                                           ngf-drag-over-class="'dragover'"
+                                                           ngf-multiple="true"
+                                                           ngf-allow-dir="true"
+                                                           accept="image/*,application/pdf"
+                                                           ngf-pattern="'image/*,application/pdf'"
+                                                           data-require="@requireAttribute"
+                                                           data-maxfilesize="@field.MaxFileSize" />
+                                                    <div class="dragDropMockfield">@Html.Raw(field.Placeholder)</div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                }
+                            </div>
+                        }
+                    </div>
+                }
+            }
+
+            <div class="row">
+                <div class="col-xs-12 fullWidth">
+                    <div class="form-group">
+                        <input type="submit" id="btnSubmit@(Model.Form.Id)" class="submitForm" value="@Model.Form.ButtonText" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+{
+	propertyEditors: [      
+        {
+            alias: "Manao.FolderPicker",
+            name: "[Manao] Folder Picker",
+            editor: {
+                view: "~/App_Plugins/Manao.FolderPicker/view.html"
+            }
+        }
+    ],
+	javascript: [
+		'~/App_Plugins/Manao.FolderPicker/controller.js',
+    ],
+	css: [
+		'~/App_Plugins/Manao.FolderPicker/style.css',
+	]
+}

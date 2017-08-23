@@ -1,0 +1,305 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@using FormPackage6.Core.DomainModel.Form;
+@using Skybrud.Umbraco.GridData;
+@using Umbraco.Web.Templates;
+@using FormPackage6.Core.Alias;
+
+@if (Model.Items != null && Model.Items.Any())
+{
+    if (Model.Items.First() != null)
+    {
+        FormPicker formPicker = AutoMapper.Mapper.Map<FormPicker>(Model.Items.First());
+        @RenderForm(formPicker)
+    }
+}
+
+@helper RenderForm(FormPicker formPicker)
+{
+if (formPicker.Form != null)
+{
+    if (Lecoati.LeBlender.Extension.Helper.IsFrontEnd())
+    {
+            <div class="manaoform module">
+                @if (!string.IsNullOrEmpty(formPicker.FormHeader))
+                {
+                    <p>@Html.Raw(TemplateUtilities.ParseInternalLinks(formPicker.FormHeader))</p>
+                }
+
+                <div data-ng-controller="ManaoFormSubmitController" class="formContainer" ng-cloak>
+                    <form id="@formPicker.Form.Id" name="@formPicker.Form.Id" data-ng-submit="submit('@formPicker.Form.Id')" enctype="multipart/form-data" class="clearfix">
+                        @foreach (GridSection gridSection in formPicker.Form.DataModel.Sections)
+                        {
+                            foreach (GridRow row in gridSection.Rows)
+                            {
+                                <div class="row">
+                                    @foreach (var area in row.Areas)
+                                    {
+                                        int areaCount = row.Areas.Count();
+                                        <div class="col-xs-12 @Html.Raw(areaCount == 2 ? "col-md-6 halfwidth":string.Empty)">
+                                            @foreach (GridControl control in area.Controls)
+                                            {
+                                                Field field = formPicker.Form.Fields.Where(f => f.Id == (string)control.JObject.GetValue("guid")).FirstOrDefault();
+                                                if (field != null)
+                                                {
+                                                    string requireAttribute = string.Empty;
+                                                    if (field.Mandatory)
+                                                    {
+                                                        requireAttribute = "required";
+                                                        field.Name += " <em>*</em>";
+                                                    }
+
+                                                    string fieldRepresent = string.IsNullOrEmpty(field.Name) ? field.Id : field.Name;
+                                                    string errorMessageFieldRepresent = "<strong>" + fieldRepresent + "</strong>";
+
+                                                    if (field.FieldType.Type.Equals(PropertyAlias.Label))
+                                                    {
+                                                        <div class="form-group">
+                                                            <label id="label-@field.Id" name="label-@field.Id" for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <input type="hidden" id="@field.Id" name="@field.Id" value="@field.Name" />
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Text))
+                                                    {
+                                                        <div class="form-group">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <input type="text" class="form-control" id="@field.Id" name="@field.Id"
+                                                                   value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Email))
+                                                    {
+                                                        <div class="form-group">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <input type="email" class="form-control" id="@field.Id" name="@field.Id"
+                                                                   value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                            <div class="alert alert-danger error-invalid" role="alert">
+                                                                @field.MessageInvalidFormat
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Phone))
+                                                    {
+                                                        <div class="form-group phone">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <input type="tel" class="form-control" id="@field.Id" name="@field.Id"
+                                                                   value="@field.Value" placeholder="@field.Placeholder" data-require="@requireAttribute">
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                            <div class="alert alert-danger error-invalid" role="alert">
+                                                                @field.MessageInvalidFormat
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.TextArea))
+                                                    {
+                                                        <div class="form-group textarea">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <textarea class="form-control" id="@field.Id" name="@field.Id" placeholder="@field.Placeholder" data-require="@requireAttribute">@field.Value</textarea>
+                                                                <div class="alert alert-danger error-require" role="alert">
+                                                                    @field.MessageMandatory
+                                                                </div>
+                                                            </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Dropdown))
+                                                    {
+                                                        <div class="form-group dropdown">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <div class="input-section">
+                                                                <select class="form-control chosen-select" id="@field.Id" name="@field.Id" data-require="@requireAttribute" data-placeholder="@field.Placeholder">
+                                                                    <option value=""></option>
+                                                                    @foreach (var option in field.Options)
+                                                                    {
+                                                                        <option value="@option.Name">@option.Name</option>
+                                                                    }
+                                                                </select>
+                                                                <div class="alert alert-danger error-require" role="alert">
+                                                                    @field.MessageMandatory
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Checkbox))
+                                                    {
+                                                        <div class="form-group checkbox-group">
+                                                            <div data-require="@requireAttribute" class="checkbox-group-container clearfix">
+                                                                <div class="label-section">
+                                                                    <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                                </div>
+                                                                <div class="checkbox-form clearfix">
+                                                                    @foreach (var option in field.Options)
+                                                                    {
+                                                                        var fieldId = !string.IsNullOrEmpty(option.Name) ? field.Id + option.Name.Replace(" ", "-") : field.Id;
+
+                                                                        <div class="checkboxWrapper">
+                                                                            <input type="checkbox" id="@fieldId" name="@field.Id" value="@option.Name" class="input-checkbox" />
+                                                                            <label for="@fieldId" class="checkbox-label">@option.Name</label>
+                                                                        </div>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Radio))
+                                                    {
+                                                        <div class="form-group radio-group">
+                                                            <div data-require="@requireAttribute" class="radio-group-container clearfix">
+                                                                <div class="label-section">
+                                                                    <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                                </div>
+                                                                <div class="radio-form clearfix">
+                                                                    @foreach (var option in field.Options)
+                                                                    {
+                                                                        var fieldId = !string.IsNullOrEmpty(option.Name) ? field.Id + option.Name.Replace(" ", "-") : field.Id;
+
+                                                                        <div class="checkboxWrapper">
+                                                                            <input type="radio" id="@fieldId" name="@field.Id" value="@option.Name" class="input-checkbox" />
+                                                                            <label for="@fieldId" class="checkbox-label">@option.Name</label>
+                                                                        </div>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.Upload))
+                                                    {
+                                                        <div class="form-group">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <div class="fileinput fileinput-new input-group" data-provides="fileinput">
+                                                                <div class="form-control fileuploadBox" data-trigger="fileinput">
+                                                                    <span class="fileinput-filename fileUploadText">@field.Placeholder</span>
+                                                                </div>
+                                                                <span class="input-group-addon btn btn-default btn-file fileUploadBtnFile">
+                                                                    <span class="fileinput-new">@field.SelectFileText</span>
+                                                                    <span class="fileinput-exists">@field.ChangeFileText</span>
+                                                                    <input type="file" id="@field.Id" name="@field.Id" data-require="@requireAttribute" data-maxfilesize="@field.MaxFileSize" ngf-select ng-model="dragdropfiles['@(field.Id)']">
+                                                                </span>
+                                                            </div>
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                            <div class="alert alert-danger error-invalid" role="alert">
+                                                                @field.MessageInvalidFormat
+                                                            </div>
+                                                            <div class="alert alert-danger error-overMaxSize" role="alert">
+                                                                @Html.Raw(field.MessageOverMaxFileSize.Replace("{0}", errorMessageFieldRepresent).Replace("{1}", (field.MaxFileSize / 1024).ToString()))
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                    else if (field.FieldType.Type.Equals(PropertyAlias.DragDropUpload))
+                                                    {
+                                                        <div class="form-group dragDropFile">
+                                                            <label for="@field.Id">@Html.Raw(field.Name)</label>
+                                                            <div class="dragDropSection">
+                                                                <input type="file"
+                                                                       id="@field.Id"
+                                                                       name="@field.Id"
+                                                                       ng-init="uploadDragAndDropFiles($files, '@(field.Id)')"
+                                                                       ngf-select="uploadDragAndDropFiles($files, '@(field.Id)')"
+                                                                       ngf-drop="uploadDragAndDropFiles($files, '@(field.Id)')"
+                                                                       class="drop-box"
+                                                                       ngf-drag-over-class="'dragover'"
+                                                                       ngf-multiple="true"
+                                                                       ngf-allow-dir="true"
+                                                                       accept="image/*,application/pdf"
+                                                                       ngf-pattern="'image/*,application/pdf'"
+                                                                       data-require="@requireAttribute"
+                                                                       data-maxfilesize="@field.MaxFileSize" />
+                                                                <div class="dragDropMockfield">@Html.Raw(field.Placeholder)</div>
+                                                                <div ngf-no-file-drop>@library.GetDictionaryItem("[Manao Form] Drag Drop File Not Support")</div>
+                                                            </div>
+                                                            <div ng-if="hasDragAndDropFiles('@(field.Id)')">
+                                                                <label>@library.GetDictionaryItem("[Manao Form] Drag Drop File List")</label>
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item" ng-repeat="file in getDragAndDropFiles('@(field.Id)')">
+                                                                        {{file.name}}
+                                                                        <i class="fa fa-times" aria-hidden="true" ng-click="removeDragAndDropFile('@(field.Id)', $index);"></i>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="alert alert-danger error-require" role="alert">
+                                                                @field.MessageMandatory
+                                                            </div>
+                                                            <div class="alert alert-danger error-invalid" role="alert">
+                                                                @field.MessageInvalidFormat
+                                                            </div>
+                                                            <div class="alert alert-danger error-overMaxSize" role="alert">
+                                                                @Html.Raw(field.MessageOverMaxFileSize.Replace("{0}", errorMessageFieldRepresent).Replace("{1}", (field.MaxFileSize / 1024).ToString()))
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                }
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+
+                        @if (formPicker.Form.IsEnableSpamFilter)
+                        {
+                            <div class="form-group teddy-bear">
+                                <div class="label-section">
+                                    <label for="TeddyBear">HP</label>
+                                </div>
+                                <input type="text" class="form-control" id="TeddyBear" name="TeddyBear">
+                            </div>
+                        }
+                        <div class="row">
+                            <div class="col-xs-12 fullWidth">
+                                <div class="form-group submitSection">
+                                    <input type="submit" id="btnSubmit@(formPicker.Form.Id)" class="submitForm btn btn-success" value="@formPicker.Form.ButtonText" />
+                                </div>
+                            </div>
+                        </div>
+                        <input id="URL" name="URL" type="hidden" value="@Request.Url" />
+                        <input id="formId" name="formId" type="hidden" value="@formPicker.Form.Id" />
+                        <input id="sessionKey" name="sessionKey" type="hidden" value="@formPicker.Form.Id" />
+                    </form>
+
+                    <div class="modal fade" tabindex="-1" role="dialog" id="myModal@(formPicker.Form.Id)">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <p data-ng-if="submitResult.Status == 'success'">@Html.Raw(formPicker.Form.SuccessMessage)</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">@library.GetDictionaryItem("[Manao Form] Overlay Button Text")</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+    else
+    {
+            @Html.Partial("~/Views/Partials/Grid/Editors/Backoffice/manao-form-backoffice.cshtml", formPicker);
+        }
+    }
+    else
+    {
+        if (!Lecoati.LeBlender.Extension.Helper.IsFrontEnd())
+        {
+            <div class="list-editor">
+                <div class="usky-editor-placeholder preview-LeBlender">
+                    <i class="icon icon-autofill color-blue"></i>
+                    <div class="help-text ng-binding">Form Picker</div>
+                </div>
+            </div>
+            @*@LeBlenderHelper.RenderEmptyModule("manaoFormPicker")*@
+    }
+}
+}

@@ -1,0 +1,10 @@
+{
+	javascript: [
+		'~/App_Plugins/Manao.Forms/FormPicker/resource.js',
+		'~/App_Plugins/Manao.Forms/FormPicker/controller.js',
+    ],
+	css: [
+		'~/App_Plugins/Manao.Forms/css/style.css',
+		'~/App_Plugins/Manao.Forms/css/Module-Form.css'
+	]
+}  

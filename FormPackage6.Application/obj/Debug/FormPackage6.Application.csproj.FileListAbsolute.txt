@@ -1,0 +1,172 @@
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Application.dll.config
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Application.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Application.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Antlr3.Runtime.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\EntityFramework.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\EntityFramework.SqlServer.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FluentValidation.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Core.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Dispatcher.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Infrastructure.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\HtmlAgilityPack.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Lecoati.LeBlender.Extension.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Newtonsoft.Json.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Skybrud.Umbraco.GridData.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\StructureMap.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\StructureMap.Net4.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\StructureMap.Web.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Net.Http.Formatting.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Helpers.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Http.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Http.WebHost.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Mvc.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Optimization.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Razor.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.Razor.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\WebActivatorEx.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\WebGrease.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Archetype.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Core.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Dispatcher.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FormPackage6.Infrastructure.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\AutoMapper.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\businesslogic.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\cms.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\controls.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\EntityFramework.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\EntityFramework.SqlServer.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\FluentValidation.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\HtmlAgilityPack.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\interfaces.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Newtonsoft.Json.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Skybrud.Umbraco.GridData.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\StructureMap.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\StructureMap.Web.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Net.Http.Formatting.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Helpers.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Http.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Http.WebHost.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Mvc.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Optimization.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.Razor.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\System.Web.WebPages.Razor.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\umbraco.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\Umbraco.Core.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\umbraco.DataLayer.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\umbraco.MacroEngines.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\umbraco.providers.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\UmbracoExamine.xml
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\cs\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\da\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\de\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\es\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\fa\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\fi\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\fr\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\it\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\ko\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\mk\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\nl\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\pl\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\pt\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\ru\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\sv\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\tr\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\obj\Debug\FormPackage6.Application.csprojResolveAssemblyReference.cache
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\obj\Debug\FormPackage6.Application.dll
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\obj\Debug\FormPackage6.Application.pdb
+D:\gits\cms-master-package-v9\Source\FormPackage6\Form6 Master Compatible\FormPackage6.Application\bin\Debug\ClientDependency.Core.Mvc.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Application.dll.config
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Application.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Application.pdb
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Antlr3.Runtime.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\ClientDependency.Core.Mvc.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\EntityFramework.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\EntityFramework.SqlServer.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FluentValidation.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Core.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Dispatcher.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Infrastructure.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\HtmlAgilityPack.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Lecoati.LeBlender.Extension.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Newtonsoft.Json.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Skybrud.Umbraco.GridData.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\StructureMap.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\StructureMap.Net4.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\StructureMap.Web.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Net.Http.Formatting.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Helpers.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Http.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Http.WebHost.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Mvc.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Optimization.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Razor.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.Razor.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\WebActivatorEx.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\WebGrease.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Archetype.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Core.pdb
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Dispatcher.pdb
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FormPackage6.Infrastructure.pdb
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\AutoMapper.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\businesslogic.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\cms.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\controls.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\EntityFramework.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\EntityFramework.SqlServer.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\FluentValidation.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\HtmlAgilityPack.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\interfaces.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Newtonsoft.Json.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Skybrud.Umbraco.GridData.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\StructureMap.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\StructureMap.Web.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Net.Http.Formatting.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Helpers.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Http.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Http.WebHost.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Mvc.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Optimization.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.Razor.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\System.Web.WebPages.Razor.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\umbraco.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\Umbraco.Core.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\umbraco.DataLayer.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\umbraco.MacroEngines.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\umbraco.providers.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\UmbracoExamine.xml
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\cs\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\da\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\de\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\es\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\fa\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\fi\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\fr\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\it\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\ko\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\mk\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\nl\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\pl\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\pt\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\ru\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\sv\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\tr\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\github\ManaoForm\FormPackage6.Application\obj\Debug\FormPackage6.Application.csprojResolveAssemblyReference.cache
+D:\github\ManaoForm\FormPackage6.Application\obj\Debug\FormPackage6.Application.dll
+D:\github\ManaoForm\FormPackage6.Application\obj\Debug\FormPackage6.Application.pdb

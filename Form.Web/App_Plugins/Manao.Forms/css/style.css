@@ -1,0 +1,367 @@
+/*This  css style for view on backend*/
+.manaoformBackoffice {
+    padding: 20px 20px 30px 20px;
+    overflow: visible;
+    height: 100%;
+    margin-bottom: 20px;
+    pointer-events:none;
+}
+
+.manaoformBackoffice .form-field {
+    position: relative;
+}
+
+.manaoformBackoffice .form-field .field-label {
+    width: 95%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    background: none;
+}
+
+.manaoformBackoffice .form-field .field-label-textbox {
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    background: none;
+}
+
+.manaoformBackoffice .form-field .field-label-multi-textbox {
+    width: 70%;
+    border: none;
+    font-size: 15px;
+    background: none;
+    border-bottom: 1px dashed #cdcdcd;
+    padding-left: 2px;
+}
+
+.manaoformBackoffice .form-field .field-placeholder {
+    width: 100%;
+    height: 40px;
+    padding: 4px 15px;
+    margin-top: 5px;
+    color: #cdcdcd;
+    box-sizing: border-box;
+}
+
+.manaoformBackoffice .field-placeholder.textarea {
+    height: 150px;
+    resize: none;
+}
+
+.manaoformBackoffice input[type=checkbox], .manaoformBackoffice input[type=radio] {
+    width: 18px;
+    height: 18px;
+    margin-top: 8px;
+}
+
+.manaoformBackoffice .form-field .add-option, .manaoformBackoffice .form-field .remove-option {
+    cursor: pointer;
+}
+
+.manaoformBackoffice .form-field .add-option {
+    font-size: 26px;
+    color: #777;
+    margin: 5px 15px;
+}
+
+.manaoformBackoffice .form-field .remove-option {
+    font-size: 16px;
+    color: red;
+    margin-top: 8px;
+}
+
+.manaoformBackoffice .form-field .toggle-down {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.dropdown-wrap {
+    position: relative;
+}
+
+.manaoformBackoffice .form-field .toggle-down {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+.manaoformBackoffice .form-field .moveable {
+    padding: 5px 15px 5px 0;
+}
+
+.manaoformBackoffice .form-field .dropdown .moveable {
+    padding-left: 15px;
+}
+
+.manaoformBackoffice .form-field .options.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    z-index: 999999;
+    border: 1px solid #ccc;
+    top: 82px;
+    max-height: 200px;
+    overflow-y: auto;
+    cursor: default;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.manaoformBackoffice .require-field input {
+    float: left;
+}
+
+.manaoformBackoffice .require-field label {
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+}
+
+.manaoformBackoffice .require-field input[type=checkbox] {
+    margin-top: 3px;
+}
+
+.manaoformBackoffice .require-field {
+    /*display:none;*/
+    margin-top: 20px;
+}
+
+.manaoformBackoffice:hover .require-field {
+    transition: opacity .25s ease-in-out;
+    display: block;
+    opacity: 1;
+}
+
+.manaoformBackoffice .uploadField {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 96%;
+    padding-left: 15px;
+}
+
+.manaoformBackoffice .btn.fileUploadBtnFile {
+    float: right;
+    margin: 0;
+    border: none;
+    width: 20%;
+    padding: 10px 0;
+    min-height: 20px;
+}
+
+.manaoformBackoffice .uploadField .btn {
+    text-decoration: none;
+}
+
+.manaoformBackoffice .editForm .fieldItem .form-field .field-placeholder {
+    height: 30px;
+    color: #cdcdcd;
+    border-radius: 4px;
+}
+
+.manaoformBackoffice .uploadField .field-placeholder {
+    float: left;
+    border: none;
+    margin: 0;
+    box-shadow: none;
+    padding: 5px 0;
+    width: 80%;
+}
+
+.manaoformBackoffice .dragdrop-box {
+    outline: 1px dashed #ccc;
+    outline-offset: -10px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.manaoformBackoffice .dragdrop-box .dragdrop-box-placeholder {
+    width: 95%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: #e0e0e0;
+    background: none;
+}
+
+/*This  css style for setting panel*/
+.manaoformBackofficesetting {
+    padding: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+.manaoformBackofficesetting h5 {
+    font-weight: normal;
+    font-size: 22px;
+    color: #929292;
+}
+
+.manaoformBackofficesetting .form {
+    margin-top: 30px;
+}
+
+.manaoformBackofficesetting .form .field label {
+    font-weight: bold;
+}
+
+.manaoformBackofficesetting .btn-toolbar {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.manaoformBackofficesetting .field-sign {
+    background-color: #ebebeb;
+    color: #97989a;
+    position: absolute;
+    top: 39px;
+    right: 87px;
+    padding: 3px 13px;
+    border-radius: 5px;
+}
+
+.manaoformBackofficesetting .field-sign .fa {
+    margin-right: 5px;
+}
+
+.manaoformBackofficesetting .form .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.manaoformBackofficesetting .form .field input[type=text], .manaoformBackofficesetting .form .field input[type=email], .manaoformBackofficesetting .form .field textarea {
+    width: 90%;
+}
+
+.manaoformBackofficesetting .form .field textarea {
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.manaoformBackofficesetting .form .field input[type=checkbox] {
+    width: 18px;
+    height: 18px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.manaoformBackofficesetting .form label.checkbox {
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.manaoformBackofficesetting .form .field.optiongroup {
+    padding: 10px 0px 20px 0;
+    margin-bottom: 0;
+}
+
+.manaoformBackofficesetting .form .field.optiongroup .option {
+    /*margin: 15px 0;*/
+}
+
+.manaoformBackofficesetting .form .label-add-option {
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.manaoformBackofficesetting .form .add-option, .manaoformBackofficesetting .form .remove-option {
+    cursor: pointer;
+}
+
+.manaoformBackofficesetting .form .add-option {
+    font-size: 26px;
+    color: #777;
+}
+
+.manaoformBackofficesetting .form .remove-option, .manaoformBackofficesetting .form .drag-option {
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+    left: 2px;
+}
+
+.manaoformBackofficesetting .form .remove-option {
+    color: chocolate;
+}
+
+.manaoformBackofficesetting .form .drag-option {
+    color: #3F92D2;
+    top: -4px;
+    left: 0;
+}
+
+.manaoformBackofficesetting .form .moveable {
+    cursor: move;
+}
+
+
+.manaoformBackofficesetting .upload-folder {
+    margin-bottom: 20px;
+}
+
+.manaoformBackofficesetting .upload-folder .select-folder {
+    padding: 10px;
+    border: 1px dashed #ccc;
+    width: 88.5%;
+    display: inline-block;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.manaoformBackofficesetting .upload-folder .selected-folder {
+    width: 88.5%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.manaoformBackofficesetting .upload-folder .selected-folder .folder-name:hover {
+    text-decoration: underline;
+}
+
+.manaoformBackofficesetting .upload-folder .selected-folder i {
+    font-size: 17px;
+    position: relative;
+    top: 2px;
+}
+
+
+.manaoformBackofficePicker {
+    padding: 5px 30px;
+}
+
+.manaoformBackofficePicker .field label {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.smallFormPicker input {
+    display: block;
+    margin-top: 0;
+    color: #242f3a;
+    border: none;
+    font-size: 36px;
+    height: 40px;
+    margin-left: -8px;
+    /*border-bottom: 1px dashed #dfdfdf;*/
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.smallFormPicker select {
+    display: block;
+}
+
+.smallFormPicker label {
+    display: block;
+}

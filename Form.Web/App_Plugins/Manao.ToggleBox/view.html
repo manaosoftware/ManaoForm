@@ -1,0 +1,7 @@
+<div data-ng-controller="ToggleBoxController">
+    <div class="toggleSwitch">
+        <button type="button" class="btn btn-success leftLabel {{model.leftActiveClass}}" data-ng-click="setTrue()">{{model.config.onlabel}}</button>
+        <button type="button" class="btn btn-danger rightLabel {{model.rightActiveClass}}" data-ng-click="setFalse()">{{model.config.offlabel}}</button>
+    </div>
+</div>
+

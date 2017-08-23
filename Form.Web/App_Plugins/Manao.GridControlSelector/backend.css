@@ -1,0 +1,34 @@
+﻿/* Start style on item setting*/
+
+
+
+
+
+/* End style on item setting*/
+
+/* Start Backend UI*/
+.styleEditorBox {
+    background-color: #f9f9f9;
+    height: 150px;
+    border: 1px dashed #bababa;
+    text-align: center;
+}
+
+    .styleEditorBox i {
+        display: inline-block;
+        position: relative;
+        font-size: 35px;
+        color: #bababa;
+        top: 6px;
+        margin-right: 10px;
+    }
+
+    .styleEditorBox p {
+        display: inline-block;
+        position: relative;
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 63px;
+        color: #bababa;
+    }
+/* End Backend UI*/

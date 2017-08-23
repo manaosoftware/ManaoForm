@@ -1,0 +1,9 @@
+﻿{
+	javascript: [
+			'~/App_Plugins/Manao.FormFieldPicker/Assets/controllers.js?v=0.0.2'
+			],
+			
+	css: [
+		'~/App_Plugins/Manao.FormFieldPicker/Assets/style.css?v=0.0.2'
+	]
+}  

@@ -1,0 +1,21 @@
+﻿@inherits UmbracoViewPage<Lecoati.LeBlender.Extension.Models.LeBlenderModel>
+@using FormPackage6.Core.DomainModel.Form;
+@{
+    if (Model != null)
+    {
+        Field field = AutoMapper.Mapper.Map<Field>(Model.Items.FirstOrDefault());
+        <div class="manaoformBackoffice">
+            <div class="form-field">
+                <label class="field-label">@field.Name</label>
+                <div class="uploadField clearfix">
+                    <input type="text" placeholder="@field.Placeholder" class="field-placeholder upload" />
+
+                    <span class="input-group-addon btn btn-default btn-file fileUploadBtnFile">
+                        <span class="fileinput-new">@field.SelectFileText</span>
+                    </span>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    }
+}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language alias="default">
+  <field>
+    <uploadfield>[uploadfield]</uploadfield>
+    <fieldlabel>[fieldlabel]</fieldlabel>
+    <labelplaceholder>[labelplaceholder]</labelplaceholder>
+    <placeholder>[placeholder]</placeholder>
+    <placeholderlabel>[placeholderlabel]</placeholderlabel>
+    <uploadfieldselectfilelabel>[uploadfieldselectfilelabel]</uploadfieldselectfilelabel>
+    <uploadfieldselectfileplaceholder>[uploadfieldselectfileplaceholder]</uploadfieldselectfileplaceholder>
+    <uploadfieldchangefilelabel>[uploadfieldchangefilelabel]</uploadfieldchangefilelabel>
+    <uploadfieldchangefileplaceholder>[uploadfieldchangefileplaceholder]</uploadfieldchangefileplaceholder>
+    <uploadfieldlabel>[uploadfieldlabel]</uploadfieldlabel>
+    <uploadfieldhelptext>[uploadfieldhelptext]</uploadfieldhelptext>
+    <uploadfielderrormessage>[uploadfielderrormessage]</uploadfielderrormessage>
+    <selectuploadfolder>[uploadfieldhelptext]</selectuploadfolder>
+    <placeholderErrorMessage>[placeholderErrorMessage]</placeholderErrorMessage>
+    <requirelabel>[requirelabel]</requirelabel>
+    <sectiontitle>[sectiontitle]</sectiontitle>
+    <errorMessage>[errorMessage]</errorMessage>
+  </field>
+  <general>
+    <close>[close]</close>
+    <fail>[fail]</fail>
+  </general>
+</language>
